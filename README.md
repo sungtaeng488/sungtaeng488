@@ -1,47 +1,59 @@
 # 이성현
 
-> 사용자 문제를 AI와 소프트웨어로 해결하는 개발자입니다.
+> 웹·모바일 서비스를 만들고, AI를 제품 기능으로 연결하는 개발자입니다.
 
 KRAFTON Jungle에서 컴퓨터 과학과 소프트웨어 개발을 학습하고 있습니다.  
-웹과 모바일 환경에서 직접 만들고 배포하며, 더 나은 사용자 경험을 고민합니다.
+직접 만들고 배포하며 사용자 경험과 서비스 구조를 고민합니다.
 
 ## Skills
 
-**Language**  
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=black)
+### Languages
+Python · TypeScript · JavaScript
 
-**Frontend & Mobile**  
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=Next.js&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black) ![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=React&logoColor=black)
+### Frontend & Mobile
+Next.js · React · React Native
 
-**Deployment**  
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=Vercel&logoColor=white)
+### Backend & Data
+Flask · PostgreSQL
+
+### Tools & Deployment
+Git · Docker · Vercel
 
 ## Projects
 
-### [결정 대행소](https://decision-agent-ten.vercel.app)
-두 선택지 사이에서 고민하는 사용자를 위해 AI가 질문을 만들고, 답변을 바탕으로 최종 결정서를 제공하는 서비스입니다.
+### [결정 대행소](https://decision-agent-ten.vercel.app) `decision-agent`
+두 선택지 사이에서 고민하는 사용자를 위해 AI가 질문을 생성하고, 답변을 기반으로 의사결정을 돕는 서비스입니다.
 
-- Next.js와 OpenAI API를 활용한 AI 기능 구현
-- 질문 응답 저장, 결과 생성 및 공유 링크 제공
+`Next.js · TypeScript · OpenAI API · PostgreSQL · Vercel`
+
+- AI 기반 동적 질문 생성
+- 답변 저장 및 결과 생성
+- 결과 공유 기능
 - [Repository](https://github.com/sungtaeng488/decision-agent) · [Demo](https://decision-agent-ten.vercel.app)
 
-### [Pixeli Shop](https://pixeli-shop.vercel.app)
-TypeScript 기반으로 개발한 웹 쇼핑 서비스 프로젝트입니다.
+### [Pixeli Shop](https://pixeli-shop.vercel.app) `pixeli-shop`
+웹 쇼핑 서비스의 사용자 경험과 성능을 개선한 프로젝트입니다.
 
+`TypeScript · React/Next.js`
+
+- 상품 탐색 및 쇼핑 기능 구현
+- 데이터 처리 및 렌더링 구조 개선
+- 주요 응답 성능 5.3s → 0.40s 개선
 - [Repository](https://github.com/sungtaeng488/pixeli-shop) · [Demo](https://pixeli-shop.vercel.app)
 
 ### [DALMOVE](https://github.com/sungtaeng488/DALMOVE)
-React Native 기반 모바일 애플리케이션 프로젝트입니다.
+실시간 교통 정보를 활용한 React Native 기반 이동 지원 서비스입니다.
 
-- 크로스플랫폼 모바일 앱 개발
+`React Native · Firebase · NAVER Maps API`
+
+- 크로스 플랫폼 모바일 앱 개발
+- 이동시간 및 ETA 계산
+- 도착 임박 알림 구현
 - [Repository](https://github.com/sungtaeng488/DALMOVE)
 
 ## Currently Learning
 
-- 자료구조와 알고리즘
-- 컴퓨터 과학 기본기
-- AI 기반 서비스 설계와 구현
-
-## Contact
-
-- GitHub: [@sungtaeng488](https://github.com/sungtaeng488)
+- Data Structures & Algorithms
+- Computer Systems · CS:APP
+- AI Web Service Design
+- LLM Application Development
